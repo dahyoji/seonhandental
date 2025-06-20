@@ -1,0 +1,102 @@
+.inner {
+    max-width: 1410px;
+    margin: 0 auto;
+}
+
+.default {
+    padding: 120px 0;
+}
+
+.default .title {
+    max-width: 1410px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    line-height: 24px;
+}
+
+.default .title h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.default .title h3 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.default .title p {
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+@media (max-width:768px) {
+
+    .default {
+        margin: 0 16px;
+    }
+}
+
+.scroll {
+    font-size: 12px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+
+.scroll::before {
+    content: "";
+    position: absolute;
+    top: 28px;
+    left: 50%;
+
+    transform: translate(-50%, 0);
+
+    width: 4px;
+    height: 4px;
+
+    background: #000;
+    border-radius: 50%;
+
+    animation: scroll 2s infinite;
+}
+
+.scroll::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-top: 16px;
+    width: 1px;
+    height: 80px;
+    background: #000;
+    opacity: 0.5;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translate(-50%, 0);
+    }
+
+    50% {
+        transform: translate(-50%, 80px);
+    }
+
+    100% {
+        transform: translate(-50%, 80px) scale(12);
+        opacity: 0;
+    }
+}
+
+.flx {
+    display: flex;
+    gap: 3rem;
+}
+
+.flx>* {
+    flex: 1;
+}

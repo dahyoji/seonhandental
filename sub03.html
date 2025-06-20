@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>율하선한치과 만들기</title>
+
+    <link rel="stylesheet" href="./lib/css/reset.css">
+    <link rel="stylesheet" href="./lib/css/common.css">
+    <link rel="stylesheet" href="./lib/css/fonts.css">
+    <link rel="stylesheet" href="./lib/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/layout.css?ver=1">
+    <link rel="stylesheet" href="./css/style.css?ver=1">
+
+    <script src="./lib/js/jquery-1.12.4.min.js"></script>
+    <script src="./lib/js/swiper-bundle.min.js"></script>
+    <script src="./js/custom.js"></script>
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="inner hd_wrap">
+            <h1>
+                <a href="/">
+                    <img src="./images/logo.png" alt="율하선한치과">
+                </a>
+            </h1>
+            <nav class="gnb">
+                <ul>
+                    <li><a href="">율하선한치과 소개</a>
+                        <ul>
+                            <li><a href="./sub01.html">선한치과의 특별함</a></li>
+                            <li><a href="">의료진 소개</a></li>
+                            <li><a href="./sub03.html">진료안내/오시는 길</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">사랑니/일반진료</a>
+                        <ul>
+                            <li><a href="">충치치료</a></li>
+                            <li><a href="">신경치료</a></li>
+                            <li><a href="">치주치료</a></li>
+                            <li><a href="">사랑니 발치</a></li>
+                            <li><a href="">소아치료</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">디지털임플란트</a>
+                        <ul>
+                            <li><a href="">임플란트</a></li>
+                            <li><a href="">디지털가이드 임플란트</a></li>
+                            <li><a href="">임플란트 관리보증제도</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">심미보철/미백/틀니</a>
+                        <ul>
+                            <li><a href="">심미보철/미백</a></li>
+                            <li><a href="">틀니</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">율하선한치과 후기</a>
+                        <ul>
+                            <li><a href="">율하선한치과 치료 사례</a></li>
+                            <li><a href="">환자자필후기</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">커뮤니티</a>
+                        <ul>
+                            <li><a href="">공지사항</a></li>
+                            <li><a href="">시술 후 주의사항</a></li>
+                            <li><a href="">카카오톡 예약</a></li>
+                            <li><a href="">네이버 예약</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="utils">
+                <a href="">로그인</a>
+                <a href="">회원가입</a>
+                <a href="">
+                    <img src="./images/search.svg" alt="">
+                </a>
+            </div>
+            <button class="mbtn">
+                <img src="./images/menu.svg" alt="">
+            </button>
+        </div>
+
+    </header>
+    <main id="content">
+        <article class="sub">
+            <section class="main_info default">
+                <h2 class="blind">진료시간안내</h2>
+                <div class="inner flx">
+                    <div class="left">
+                        <div class="title">
+                            <h3>휴진 안내</h3>
+
+                        </div>
+                        <p>토요일 <span>점심시간</span> 없이 진료합니다. <br>
+                            일요일 및 공휴일은 <span>휴진</span>입니다.
+                        </p>
+                    </div>
+
+                    <div class="right">
+                        <div class="title">
+                            <h3>진료시간 안내</h3>
+                            <div class="contact">
+                                <i>
+                                    <img src="./images/phone-call.svg" alt="">
+                                </i>
+                                <a href="">
+                                    <strong>
+                                        055-344-0055
+                                    </strong>
+                                </a>
+                                <a href="" class="lnk">진료 문의하기</a>
+                            </div>
+                        </div>
+                        <ul class="desc dot_list">
+                            <li>
+                                <strong class="tj">진 료 일 시</strong>
+                                <ul class="tm">
+                                    <li><strong>월,수,금</strong><span>10:00 - 19:00</span></li>
+                                    <li><strong>화,목</strong> <span>10:00 - 21:00</span></li>
+                                    <li><strong>토요일</strong> <span>09:30 - 14:00</span></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong class="tj">야 간 진 료</strong>
+                                <ul class="tm">
+                                    <li><strong>화,목</strong> <span>21:00</span></li>
+
+                                </ul>
+
+                            </li>
+                            <li>
+                                <strong class="tj">점 심 시 간</strong>
+                                <p>13:00 - 14:00</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="main_map default">
+                <h2 class="blind">찾아오시는길</h2>
+                <div class="inner flx">
+                    <div class="__map">
+                        <!-- * 카카오맵 - 지도퍼가기 -->
+                        <!-- 1. 지도 노드 -->
+                        <div id="daumRoughmapContainer1750222668104"
+                            class="root_daum_roughmap root_daum_roughmap_landing">
+                        </div>
+
+                        <!--
+	2. 설치 스크립트
+	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+-->
+                        <script charset="UTF-8" class="daum_roughmap_loader_script"
+                            src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+                        <!-- 3. 실행 스크립트 -->
+                        <script charset="UTF-8">
+                            new daum.roughmap.Lander({
+                                "timestamp": "1750222668104",
+                                "key": "3r7o4q9d77w",
+                                "mapWidth": "640",
+                                "mapHeight": "360"
+                            }).render();
+                        </script>
+                    </div>
+
+                    <div class="pk">
+                        <h3>알려드립니다.</h3>
+
+                        <div class="itm">
+                            <i><img src="./images/map-pin.svg" alt=""></i>
+                            <strong>오시는 길</strong>
+                            <p>경남 김해시 율하6로 64 굿프라임빌딩 3층 303호</p>
+                        </div>
+                        <div class="itm">
+                            <i><img src="./images/directions_car_svg.svg" alt=""></i>
+                            <strong>주차 안내</strong>
+                            <p>굿프라임빌딩 지하주차장 이용</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+        </article>
+    </main>
+
+
+
+    <footer id="footer">
+        <div class="inner">
+            <div class="itm">
+                <img src="./images/logo_w.png" alt="">
+            </div>
+            <p>경상남도 김해시 율하6로 64,굿프라임 빌딩 3층 303호</p>
+            <p>
+                <span>등록번호:346-12-01744</span>
+                <span>율하선한치과의원</span>
+            </p>
+            <p>
+                <span>원장:김경국</span>
+                <span>전화:055-344-0055</span>
+            </p>
+            <ul>
+                <li><a href="">이용약관</a></li>
+                <li><a href="" style="font-weight: 600;">개인정보처리방침</a></li>
+                <li><a href="">영상정보처리방침</a></li>
+            </ul>
+            <address>&copy;2025 율하선한치과</address>
+        </div>
+    </footer>
+
+    <button class="to_top">
+        <img src="./images/arrow-up.svg" alt="">
+    </button>
+
+</body>
+
+</html>
