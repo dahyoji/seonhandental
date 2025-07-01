@@ -376,7 +376,7 @@
 
 .main_story .inner .itm strong {
     display: block;
-    margin-top: 8px;
+    margin-top: 16px;
     font-size: 18px;
     font-weight: 600;
 
@@ -483,13 +483,15 @@
 
 .main_before .inner .itm strong {
     display: block;
-    margin-top: 8px;
+    margin-top: 16px;
     font-size: 18px;
+    line-height: 24px;
 }
 
 .main_before .inner .itm p {
-    margin-top: 8px;
-    font-size: 14px;
+
+    font-size: 13px;
+    opacity: 0.5;
 }
 
 @media (max-width:768px) {
@@ -650,7 +652,6 @@
 
 
 .main_map h3 {
-    text-align: center;
     margin-bottom: 24px;
     font-size: 32px;
     font-weight: 600;
@@ -661,7 +662,7 @@
 
 .main_map .itm {
     display: block;
-    text-align: center;
+
     padding-bottom: 16px;
     margin-bottom: 24px;
     border-bottom: 1px solid #ddd;
@@ -711,9 +712,7 @@
 
 #footer .inner>* {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+
 
     line-height: 24px;
     font-size: 14px;
@@ -931,8 +930,17 @@
     flex: 1;
 }
 
+#sub .sub_infor .inner .left span {
+    display: block;
+    color: #06babd;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
 #sub .sub_infor .inner .left strong {
     display: block;
+    margin-top: 16px;
     font-size: 32px;
     font-weight: 500;
     line-height: 24px;
@@ -940,9 +948,6 @@
 
 }
 
-#sub .sub_infor .inner .left span {
-    color: #06babd;
-}
 
 #sub .sub_infor .inner .left p {
     margin-top: 16px;
