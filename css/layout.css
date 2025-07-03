@@ -17,11 +17,11 @@
 .default .title h2 {
     font-size: 40px;
     font-weight: 700;
-    text-align: center;
+
 }
 
 .default .title h3 {
-    text-align: center;
+
     font-size: 32px;
     font-weight: 700;
 }
@@ -30,7 +30,7 @@
     margin-top: 16px;
     font-size: 18px;
     font-weight: 400;
-    text-align: center;
+
 }
 
 
