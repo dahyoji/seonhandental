@@ -760,8 +760,8 @@
 
     #footer .inner {
         flex-direction: column;
+        margin: 0 16px;
         gap: 8px;
-
     }
 
 
